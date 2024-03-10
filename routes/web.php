@@ -15,6 +15,6 @@ use App\Http\Controllers\StudentController;
 |
 */
 
-Route::get('/', function () {
+Route::get('Tic-Tac-Toe', function () {
     return view('game.game');
 });
